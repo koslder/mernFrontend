@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import axios from 'axios';
-import './maintenancehistory.css';
+import '../../maintenanceHistory.css';
 
 const MaintenanceHistory = () => {
     const [maintenanceData, setMaintenanceData] = useState([]);
